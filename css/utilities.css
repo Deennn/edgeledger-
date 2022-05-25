@@ -48,6 +48,10 @@
 
 /* Flex items */
 
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
+
 .flex-items {
     display: flex;
     text-align: center;
@@ -67,6 +71,8 @@
     flex-wrap: wrap;
     width: 100%;
 }
+
+
 
 .flex-columns .column {
     display: flex;
@@ -105,6 +111,8 @@
 .flex-columns p {
     margin: 20px 0;
 }
+
+
 
 /* Section header */
 
